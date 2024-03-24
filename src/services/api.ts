@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const url = 'http://localhost:8080' //'https://prova-netprecision-bruno-rmks-372131324b1e.herokuapp.com'
+export const url = 'https://prova-netprecision-bruno-rmks-372131324b1e.herokuapp.com' //'http://localhost:8080'
 
 export const api = axios.create({
     baseURL: url,
